@@ -586,6 +586,41 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
+.resume-section {
+    margin-top: 2rem;
+}
+
+.resume-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.resume-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.resume-list li:last-child {
+    border-bottom: none;
+}
+
+.resume-list li::before {
+    content: '•';
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
 .skills-section {
     padding: 80px 0;
     background: #fafafa;
