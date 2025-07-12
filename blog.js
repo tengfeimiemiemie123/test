@@ -2,75 +2,93 @@
 const blogPosts = [
     {
         id: 1,
-        title: "现代Web开发技术趋势",
-        excerpt: "探讨2024年Web开发领域的最新趋势，包括前端框架、后端技术和开发工具的发展方向。从React、Vue到Next.js，从微服务到Serverless，我们将深入分析这些技术的应用场景和未来发展方向。",
-        category: "tech",
-        date: "2024年1月15日",
-        image: "https://via.placeholder.com/400x250/667eea/ffffff?text=技术",
-        readTime: "8分钟"
+        title: "对普通女性来说，生孩子有什么好处？",
+        excerpt: "去年年初我做了一个体检，发现自己的子宫衰退得很严重。医生建议尽快考虑生育问题。作为一个快35岁的普通打工人，我开始严肃思考：到底要不要生孩子呢？",
+        category: "all",
+        date: "2024年1月20日",
+        image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=生活",
+        readTime: "8分钟",
+        slug: "childbirth-benefits-for-women"
     },
     {
         id: 2,
-        title: "如何保持工作与生活的平衡",
-        excerpt: "在快节奏的现代社会中，如何找到工作与生活之间的平衡点，让每一天都充满意义。本文将分享一些实用的方法和技巧，帮助你在忙碌的工作中找到属于自己的生活节奏。",
-        category: "life",
-        date: "2024年1月10日",
-        image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=生活",
-        readTime: "6分钟"
+        title: "现代Web开发技术趋势",
+        excerpt: "探讨2024年Web开发领域的最新趋势，包括前端框架、后端技术和开发工具的发展方向。从React、Vue到Next.js，从微服务到Serverless，我们将深入分析这些技术的应用场景和未来发展方向。",
+        category: "all",
+        date: "2024年1月15日",
+        image: "https://via.placeholder.com/400x250/667eea/ffffff?text=技术",
+        readTime: "8分钟",
+        slug: "web-development-trends-2024"
     },
     {
         id: 3,
-        title: "人工智能时代的思考",
-        excerpt: "随着AI技术的快速发展，我们需要重新思考人类在技术发展中的角色和未来。从ChatGPT到自动驾驶，AI正在改变我们的生活方式和工作方式。",
-        category: "thought",
-        date: "2024年1月5日",
-        image: "https://via.placeholder.com/400x250/4facfe/ffffff?text=思考",
-        readTime: "10分钟"
+        title: "如何保持工作与生活的平衡",
+        excerpt: "在快节奏的现代社会中，如何找到工作与生活之间的平衡点，让每一天都充满意义。本文将分享一些实用的方法和技巧，帮助你在忙碌的工作中找到属于自己的生活节奏。",
+        category: "all",
+        date: "2024年1月10日",
+        image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=生活",
+        readTime: "6分钟",
+        slug: "work-life-balance"
     },
     {
         id: 4,
+        title: "人工智能时代的思考",
+        excerpt: "随着AI技术的快速发展，我们需要重新思考人类在技术发展中的角色和未来。从ChatGPT到自动驾驶，AI正在改变我们的生活方式和工作方式。",
+        category: "all",
+        date: "2024年1月5日",
+        image: "https://via.placeholder.com/400x250/4facfe/ffffff?text=思考",
+        readTime: "10分钟",
+        slug: "ai-era-thinking"
+    },
+    {
+        id: 5,
         title: "React 18新特性详解",
         excerpt: "React 18带来了许多激动人心的新特性，包括并发渲染、自动批处理、Suspense改进等。本文将详细介绍这些新特性的使用方法和最佳实践。",
-        category: "tech",
+        category: "all",
         date: "2024年1月3日",
         image: "https://via.placeholder.com/400x250/667eea/ffffff?text=React",
-        readTime: "12分钟"
+        readTime: "12分钟",
+        slug: "react-18-features"
     },
     {
         id: 5,
         title: "我的读书心得",
         excerpt: "最近读了几本好书，想和大家分享一下我的读书心得。从技术书籍到文学经典，每一本书都给我带来了不同的启发和思考。",
-        category: "essay",
+        category: "all",
         date: "2024年1月1日",
         image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=读书",
-        readTime: "5分钟"
+        readTime: "5分钟",
+        slug: "reading-notes"
     },
     {
         id: 6,
         title: "TypeScript高级技巧",
         excerpt: "TypeScript作为JavaScript的超集，提供了强大的类型系统。本文将分享一些高级的TypeScript技巧，帮助你写出更安全、更易维护的代码。",
-        category: "tech",
+        category: "all",
         date: "2023年12月28日",
         image: "https://via.placeholder.com/400x250/4facfe/ffffff?text=TypeScript",
-        readTime: "15分钟"
+        readTime: "15分钟",
+        slug: "typescript-advanced-tips"
     },
     {
         id: 7,
         title: "旅行中的思考",
         excerpt: "最近去了一趟旅行，在旅途中有了很多新的思考和感悟。有时候，离开熟悉的环境，反而能让我们更清楚地认识自己。",
-        category: "life",
+        category: "all",
         date: "2023年12月25日",
         image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=旅行",
-        readTime: "7分钟"
+        readTime: "7分钟",
+        slug: "travel-thoughts"
     },
     {
         id: 8,
         title: "代码重构的艺术",
         excerpt: "代码重构是每个开发者都应该掌握的重要技能。本文将分享一些重构的最佳实践和技巧，帮助你写出更优雅、更易维护的代码。",
-        category: "tech",
+        category: "all",
         date: "2023年12月20日",
         image: "https://via.placeholder.com/400x250/667eea/ffffff?text=重构",
-        readTime: "11分钟"
+        readTime: "11分钟",
+        slug: "code-refactoring-art"
     }
 ];
 
@@ -112,7 +130,7 @@ function renderPostCard(post) {
                 </div>
                 <h3 class="post-title">${post.title}</h3>
                 <p class="post-excerpt">${post.excerpt}</p>
-                <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/${post.slug}.html" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
     `;
@@ -120,13 +138,7 @@ function renderPostCard(post) {
 
 // 获取分类名称
 function getCategoryName(category) {
-    const categoryNames = {
-        'tech': '技术',
-        'life': '生活',
-        'thought': '思考',
-        'essay': '随笔'
-    };
-    return categoryNames[category] || category;
+    return '全部';
 }
 
 // 渲染文章列表
