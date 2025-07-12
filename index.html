@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">我的博客</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏博客内容 -->
+    <section class="hero-blog">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">我的博客</h1>
+                <p class="hero-subtitle">分享技术、生活和思考的地方</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=技术" alt="技术文章">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2024年1月15日</span>
+                            <span class="post-category">技术</span>
+                        </div>
+                        <h3 class="post-title">现代Web开发技术趋势</h3>
+                        <p class="post-excerpt">探讨2024年Web开发领域的最新趋势，包括前端框架、后端技术和开发工具的发展方向...</p>
+                        <a href="blog.html" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/400x250/3b82f6/ffffff?text=生活" alt="生活随笔">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2024年1月10日</span>
+                            <span class="post-category">生活</span>
+                        </div>
+                        <h3 class="post-title">如何保持工作与生活的平衡</h3>
+                        <p class="post-excerpt">在快节奏的现代社会中，如何找到工作与生活之间的平衡点，让每一天都充满意义...</p>
+                        <a href="blog.html" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=思考" alt="深度思考">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2024年1月5日</span>
+                            <span class="post-category">思考</span>
+                        </div>
+                        <h3 class="post-title">人工智能时代的思考</h3>
+                        <p class="post-excerpt">随着AI技术的快速发展，我们需要重新思考人类在技术发展中的角色和未来...</p>
+                        <a href="blog.html" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="view-all-posts">
+                <a href="blog.html" class="btn btn-outline">查看所有文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>关于我</h2>
+                    <p>我是一名热爱技术和写作的开发者，喜欢分享知识和经验。在这里，我会记录我的学习历程、技术心得和生活感悟。</p>
+                    <a href="about.html" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300x300/667eea/ffffff?text=我" alt="个人照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>我的博客</h3>
+                    <p>分享技术、生活和思考的个人空间</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="about.html">关于</a></li>
+                        <li><a href="contact.html">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>分类</h4>
+                    <ul>
+                        <li><a href="blog.html">技术</a></li>
+                        <li><a href="blog.html">生活</a></li>
+                        <li><a href="blog.html">思考</a></li>
+                        <li><a href="blog.html">随笔</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 我的个人博客. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

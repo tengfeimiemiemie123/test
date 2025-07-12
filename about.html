@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 - 我的个人博客</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">我的博客</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link active">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面头部 -->
+    <section class="page-header">
+        <div class="container">
+            <h1>关于我</h1>
+            <p>了解我的故事、技能和经历</p>
+        </div>
+    </section>
+
+    <!-- 个人介绍 -->
+    <section class="about-intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h2>你好，我是小明</h2>
+                    <p>我是一名热爱技术和写作的全栈开发者，专注于现代Web开发技术。我喜欢探索新技术，分享知识，并且相信技术可以改变世界。</p>
+                    <p>在我的职业生涯中，我参与过多个大型项目的开发，从电商平台到企业管理系统，积累了丰富的实战经验。同时，我也热衷于开源项目，为技术社区贡献自己的力量。</p>
+                    <div class="intro-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">年开发经验</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">项目经验</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">技术文章</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <img src="https://via.placeholder.com/400x500/667eea/ffffff?text=个人照片" alt="个人照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示 -->
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="section-title">技能专长</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> 前端开发</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS/SCSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> 后端开发</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> 开发工具</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经历时间线 -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">职业经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 至今</div>
+                        <h3>高级前端开发工程师</h3>
+                        <h4>某知名互联网公司</h4>
+                        <p>负责公司核心产品的前端架构设计和开发，带领团队完成多个重要项目，推动技术栈升级和最佳实践的实施。</p>
+                        <ul>
+                            <li>优化前端性能，提升用户体验</li>
+                            <li>设计并实现组件库</li>
+                            <li>指导初级开发人员</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <h3>全栈开发工程师</h3>
+                        <h4>某创业公司</h4>
+                        <p>参与公司产品的全栈开发，从需求分析到产品上线，负责多个模块的设计和实现。</p>
+                        <ul>
+                            <li>开发电商平台核心功能</li>
+                            <li>设计数据库架构</li>
+                            <li>实现支付系统集成</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <h3>前端开发工程师</h3>
+                        <h4>某软件公司</h4>
+                        <p>专注于企业级应用的前端开发，使用React和Vue.js构建用户界面，参与多个客户项目的开发。</p>
+                        <ul>
+                            <li>开发企业管理系统</li>
+                            <li>实现响应式设计</li>
+                            <li>优化代码质量</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019</div>
+                        <h3>计算机科学学士学位</h3>
+                        <h4>某知名大学</h4>
+                        <p>主修计算机科学，专注于软件工程和Web开发技术，参与多个学术项目和实习。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 兴趣爱好 -->
+    <section class="interests-section">
+        <div class="container">
+            <h2 class="section-title">兴趣爱好</h2>
+            <div class="interests-grid">
+                <div class="interest-item">
+                    <i class="fas fa-book"></i>
+                    <h3>阅读</h3>
+                    <p>喜欢阅读技术书籍和文学作品，从书中获取知识和灵感。</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-camera"></i>
+                    <h3>摄影</h3>
+                    <p>用镜头记录生活中的美好瞬间，喜欢风景和人文摄影。</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-hiking"></i>
+                    <h3>旅行</h3>
+                    <p>喜欢探索新的地方，体验不同的文化和风景。</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-music"></i>
+                    <h3>音乐</h3>
+                    <p>喜欢各种类型的音乐，从古典到流行，音乐是生活中不可或缺的一部分。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>我的博客</h3>
+                    <p>分享技术、生活和思考的个人空间</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="about.html">关于</a></li>
+                        <li><a href="contact.html">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>分类</h4>
+                    <ul>
+                        <li><a href="blog.html">技术</a></li>
+                        <li><a href="blog.html">生活</a></li>
+                        <li><a href="blog.html">思考</a></li>
+                        <li><a href="blog.html">随笔</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 我的个人博客. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
